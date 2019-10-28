@@ -1,10 +1,16 @@
-
+body {
+    height: 100%;
+    width: 100%;
+}
 
 
 body {
-    background-image: url("https://bit.ly/2Pqx1aa");
+    background-color: rgba(255, 99, 71, 0.356);
     background-repeat: no-repeat;
-    height: 100%;
     background-size: cover;
-    width: 100%;
-};
+    
+}
+
+p {
+    text-align: center;
+}
