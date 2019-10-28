@@ -21,13 +21,28 @@
 
         
        </div>
-    <div class="card">
-       <form>
-            <p>Enter your gender</p>
-            Male:<input type="radio" name="gender" value="Male"><BR>
-            Female:<input type="radio" name="gender" value="Female">
-       </form>
-    </div>
+    <div class="body">
+    <div class="container-fluid">
+      <form class="my form" onsubmit="return getAkanname ()">
+        
+        <label day="day-of-birth">
+            day:
+            <input type="number" name="day of birth" value="" required id="day" min="1" max="31" placeholder="DD">
+        </label>
+        <label month="month-of-birth">
+            month:
+            <input type="number" name="day of birth" value="" required id="month" min="1" max="12" placeholder="MM">
+        </label>
+        <label year="year-of-birth">
+            year:
+            <input type="number" name="day of birth" value="" required id="year" placeholder="YYYY">
+        </label>
+
+
+
+
+
+      </form>
        <script src="script.js"></script>
 </body>
 </html>
