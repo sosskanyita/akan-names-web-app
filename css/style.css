@@ -33,3 +33,6 @@ h3 {
     color: rgba(205, 50, 89, 0.548);
 }
 
+.btn {
+  box-sizing: border-box;
+}

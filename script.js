@@ -6,15 +6,17 @@ submit.addEventListener("click",function() {
     
 
 //var for days
-        const day = document.getElementById("day").value;
-        const month = document.getElementById("month").value;
-        const year = document.getElementById("year").value;
-        const male = document.getElementById("male");
-        const female = document.getElementById("female");
-        const century = year.slice(0,2);
-        let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-        let maleNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
-        let femaleNames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
+        const day=document.getElementById("day").value;
+        const month=document.getElementById("month").value;
+        const year=document.getElementById("year").value;
+        const male=document.getElementById("male");
+        const female=document.getElementById("female");
+    const newLocal = new Date($, { year } - $, { month } - $, { day });
+        const date=newLocal;//new Date() to capture user date of birth
+        const dayOfBirth=date.getDay();
+        const days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        const maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+        const femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     
     console.log(day);
 
