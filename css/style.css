@@ -1,38 +1,76 @@
-body { 
-    background: url(https://bit.ly/31UhmSN);
-    height: 100%;
-    width: 100%;
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+    background-image:url('https://bit.ly/2JxVDcY');
+    background-color: tomato;
 }
-
-
-body {
-    background-color: rgba(255, 99, 71, 0.356);
+h1{
+    color: white;
+}
+.parent{
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 670px;
+    padding: 0;
     background-repeat: no-repeat;
+    background-image: #6d5e5e;
     background-size: cover;
-    
-    
+    box-shadow: 1px 0px 2px #ffffff;
 }
-
-p { 
-    padding-top: 4em;
-    text-align: center;
+.left{
+    background-image: url('https://bit.ly/2PwUJRP');
+    background-size: center;
+    height: 670px;
+    border-radius: 10px 0 0 10px;
+    margin: o;
 }
+.overlay{
+    background-clip: rgba(0,0,0,8);
+    border-radius: 5px o o 5px;
+    height: 670px;
 
-input[type=number] {
-    width: 60%;
-    padding: 15px 20px;
-    margin: 8px opx;
-    box-sizing: border-box;
-    text-align: center;
-    
 }
-
-h3 {
-    padding-top: 4em;
-    text-align: center;
-    color: rgba(205, 50, 89, 0.548);
+.akan{
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bolder;
+    padding-top: 20px;
 }
-
-.btn {
-  box-sizing: border-box;
+.top-form{
+    margin-top: 40px;
+}
+.labels{
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(102, 79, 116);
+}
+.p-text{
+    margin: 30px 30px 30px 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Lobster', sans-serif;
+}
+.genders{
+    margin-left: 50px;
+}
+.btn{
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 45px;
+    width: 200px;
+    border-radius: 20px;
+}
+.q-text{
+    color: #c6e224;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 80px 20px 20px 10px;
+}
+#result{
+    margin-top: 30px;
+    color: #000000;
+    font-size: 28px;
+}
+.rounded-circle{
+    margin-left: 40px;
 }
